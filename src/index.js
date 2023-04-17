@@ -7,12 +7,13 @@ import reportWebVitals from './reportWebVitals';
 function Interactivity() {
   const [count, setCount] = useState(0);
   const incrementCount = () => {
-  setCount(count + 1)
-  };
+      alert("You clicked this button")
+       setCount(count + 1)
+}
   return (
     <div className="app">
       <button onClick={incrementCount}>Click Here</button>
-      {count}
+      You clicked this button {count} times
     </div>
   );
 }
