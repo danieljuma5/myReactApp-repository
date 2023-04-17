@@ -1,22 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Interactivity from './index.js';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={'https://play-lh.googleusercontent.com/i1qvljmS0nE43vtDhNKeGYtNlujcFxq72WAsyD2htUHOac57Z9Oiew0FrpGKlEehOvo'} className="App-logo" alt="Cute Cat" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Be careful not to stare in this cute cat's for too long
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Interactivity/>
       </header>
     </div>
   );

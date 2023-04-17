@@ -9,7 +9,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    transition: transform 2000ms ease-in-out;
+    transform-origin: left top;
+  }
+  .App-logo:hover {
+  transform: scale(1.2)
   }
 }
 
@@ -35,4 +39,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.app {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 20px;
+  text-indent: 10px;
 }
